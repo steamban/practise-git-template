@@ -1,5 +1,5 @@
-module.exports.home = function (req, res) {
-  return res.render('home', {
-    title : 'App'
+module.exports.home = function (req, res, next) {
+  return res.render("home", {
+    title: "App",
   });
 };
