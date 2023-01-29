@@ -4,9 +4,6 @@ const express = require('express');
 const router = express.Router();
 const homeController = require('../controllers/home_controller');
 
-// for testing purposes
-console.log('router loaded');
-
 // for homepage
 // router.use('/routername', require('./routerfilename'));
 router.get('/', homeController.home);
